@@ -2847,6 +2847,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .social-list {
 	display    : flex;
+	justify-content: center;
 	align-items: center;
 	list-style : none;
 	margin     : 0;
@@ -4893,4 +4894,9 @@ td:last-child {
 
 .contact-list li {
 	padding-left: 0;
+}
+
+.center-icon {
+    justify-content: center;
+    align-items: center;
 }
